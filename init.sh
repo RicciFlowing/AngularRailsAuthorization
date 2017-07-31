@@ -12,6 +12,7 @@ echo 'gem "rack-cors"' >> Gemfile
 bundle install
 
 rails g devise_token_auth:install User auth
+rail db:migrate
 
 # Edit CORS initialize file
 # Add authorize user
