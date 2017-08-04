@@ -17,7 +17,7 @@ rail db:migrate
 # Edit CORS initialize file
 # Add authorize user
 
-ng new $AppName --directory=frontend
+ng new $AppName --directory=frontend --styles=sass
 
 npm install
 npm install angular2-token
